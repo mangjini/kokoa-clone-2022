@@ -37,11 +37,11 @@
   color: rgba(0, 0, 0, 0.3);
 }
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--pink);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--pink);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
@@ -52,4 +52,17 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+}
+
+.main-MyMelody {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mmImg {
+  width: 320px;
 }

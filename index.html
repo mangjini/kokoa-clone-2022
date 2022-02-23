@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Clone</title>
+    <title>Welcome to MyMelody TALK</title>
     <script
       src="https://kit.fontawesome.com/54ca9c8a81.js"
       crossorigin="anonymous"
@@ -26,17 +26,33 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
+
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <h1 class="welcome-header__title">Welcome to MyMelody TALK</h1>
+      <div class="main-MyMelody">
+        <img class="mmImg" src="img/2.png" />
+      </div>
       <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number
+        If you have a MMTALK Account, log in with your email or phone number
       </p>
     </header>
+
     <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
+      <input
+        required
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        required
+        minlength="4"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
       <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <a href="#">Find MMTALK Account or Password</a>
     </form>
 
     <div id="no-mobile">
