@@ -65,3 +65,18 @@
 .user-component__text {
   width: 100%;
 }
+
+.user-component__group {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 0px 3px;
+}
+
+.group {
+  margin-right: 20px;
+}
+
+.group div:nth-child(2) {
+  margin-top: 3px;
+}

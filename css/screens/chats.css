@@ -1,4 +1,4 @@
-.chat-component {
+.chat-baby {
   margin-top: 110px;
 }
 .chats_list {
@@ -8,4 +8,22 @@
   font-weight: 300;
   width: 10%;
   align-items: flex-end;
+}
+.chat-component {
+  margin-bottom: 30px;
+}
+.chat-done {
+  opacity: 0;
+}
+.user-component__title h4 {
+  display: inline;
+}
+.user-component__title h4:nth-child(2) {
+  opacity: 0.5;
+}
+
+.chat-group {
+  width: 70px;
+  height: 30px;
+  display: flex;
 }

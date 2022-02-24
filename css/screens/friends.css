@@ -52,9 +52,15 @@
   padding-bottom: 70px;
 }
 
-.channer-profile {
-  width: 60px;
-  height: 60px;
+.channel-profile {
+  width: 92px;
   background-color: var(--pink);
-  box-sizing: content-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.fa-comment-dots {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 35px;
 }

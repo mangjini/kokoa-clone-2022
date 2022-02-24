@@ -1,5 +1,5 @@
 .nav {
-  background-color: #f9f9fa;
+  background-color: rgb(254, 243, 255);
   padding: 20px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.2);
@@ -73,4 +73,8 @@
 }
 .nav__btn:last-child {
   animation-delay: 0.8s;
+}
+
+.nav__btn i {
+  color: rgba(236, 177, 221, 0.8);
 }
