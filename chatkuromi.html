@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/Kuromi - Kokoa Clone</title>
+    <script
+      src="https://kit.fontawesome.com/54ca9c8a81.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar chat-status">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>06:07</span>
+      </div>
+      <div class="status-bar__column">
+        <span>83%</span>
+        <i class="fas fa-battery-three-quarters fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header chat-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back()">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Kuromi</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat-timestamp">Friday, April 22, 2022</div>
+
+      <div class="message-row message-hi">
+        <img
+          class="message-profileimg"
+          src="https://i.pinimg.com/originals/19/fb/56/19fb56bd0d8fe6842965135b2ff33e95.jpg"
+        />
+        <div class="message-row__content">
+          <span class="meassage__author"> Kuromi </span>
+          <div class="message__info">
+            <span class="message__bubble"> 망아</span>
+            <span class="message__time">23:02</span>
+          </div>
+          <div class="message__info message__double">
+            <span class="message__bubble"> 우리 다음주에</span>
+            <span class="message__time">23:02</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-hi">
+        <img
+          class="message-profileimg"
+          src="https://i.pinimg.com/originals/19/fb/56/19fb56bd0d8fe6842965135b2ff33e95.jpg"
+        />
+        <div class="message-row__content">
+          <span class="meassage__author"> Kuromi </span>
+          <div class="message__info">
+            <span class="message__bubble"> 같이 빵먹으러 가자!</span>
+            <span class="message__time">23:03</span>
+          </div>
+          <div class="message__info message__double">
+            <img
+              src="https://item.kakaocdn.net/do/07bb1aba0886fcbb13e65c7a0b712e628f324a0b9c48f77dbce3a43bd11ce785"
+              class="chat-emoji"
+            />
+            <span class="message__time">23:03</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>your screen is too big</span>
+    </div>
+  </body>
+</html>
