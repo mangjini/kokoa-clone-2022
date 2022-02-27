@@ -52,13 +52,17 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-.suggest-app__row img {
+.suggest-app__row div {
   width: 60px;
   height: 60px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  background-color: var(--pink);
+  font-size: 25px;
+  position: relative;
 }
+
 .suggest-app__row {
   display: flex;
   flex-direction: column;
@@ -71,6 +75,11 @@
   margin-top: 5px;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.4);
+}
+
+.suggest-app__row div > i {
+  top: 28px;
+  position: absolute;
 }
 
 .suggest-app {

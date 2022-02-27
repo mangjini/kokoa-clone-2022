@@ -64,6 +64,7 @@
 .open-post__member-count {
   opacity: 0.5;
   font-size: 14px;
+  width: 92px;
 }
 
 .open-post__member .divider {
